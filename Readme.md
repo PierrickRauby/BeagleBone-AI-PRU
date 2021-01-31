@@ -9,16 +9,20 @@ Each folder contains an example:
 
 
 ## Usage:
-To use this project:
+
+To use this project __on the Beaglebone AI__:
 ```
-cd 
-git clone https://github.com/PierrickRauby/BealgleBone-AI-PRU.git
-cd Beagle
-
-
+cd ~
+git clone https://github.com/PierrickRauby/BeagleBone-AI-PRU.git
+cd BeagleBone-AI-PRU
+cat Readme.md
+```
+Each example contains its own Readme with instructions on how to use it. 
 
 ## Usefull notes:
+
 The following table contains some notes when it comes to work with the PRU
+<Insert table here>
 
 
 ## Resources websites and repository:
