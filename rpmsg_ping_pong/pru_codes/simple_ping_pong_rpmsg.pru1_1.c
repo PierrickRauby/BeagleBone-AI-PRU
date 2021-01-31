@@ -5,7 +5,7 @@
  * https://github.com/jadonk/cloud9-examples/blob/master/BeagleBone/AI/pru/blinkInternalLED.pru1_1.c
  * The cloud 9 examples was modified to blink one User LED 
  * User LED with inscript D3 will blink with 1 second intervals
- * To compile use: make 
+ * To compile use: make
  * To deploy use: sh ./run.sh
 */
 
