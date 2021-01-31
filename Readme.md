@@ -23,8 +23,12 @@ Each example contains its own Readme with instructions on how to use it.
 ## Usefull notes:
 
 The following table contains some notes when it comes to work with the PRU
-<Insert table here>
-
+| /sys/class/remoteproc/ | Pru Core |
+|------------------------|----------|
+| remoteproc4            | pru1_0   |
+| remoteproc5            | pru1_1   |
+| remoteproc6            | pru2_0   |
+| remoteproc7            | pru2_1   |
 
 ## Resources websites and repository:
 Here is a list of the website and Github repository used to create those examples:
