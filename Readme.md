@@ -15,6 +15,7 @@ To use this project __on the Beaglebone AI__:
 cd ~
 git clone https://github.com/PierrickRauby/BeagleBone-AI-PRU.git
 cd BeagleBone-AI-PRU
+mv include/resource_table_1.h /var/lib/cloud9/common/
 cat Readme.md
 
 ```

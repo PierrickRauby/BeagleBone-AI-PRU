@@ -25,7 +25,7 @@
 volatile register uint32_t __R30;
 volatile register uint32_t __R31;
 
-/* Host-0 Interrupt sets bit 30 in register R31 */
+/* Host-0 Interrupt sets bit 31 in register R30 */
 #define HOST_INT            ((uint32_t) 1 << 31)
 
 /* The PRU-ICSS system events used for RPMsg are defined in the Linux device tree
@@ -33,7 +33,7 @@ volatile register uint32_t __R31;
      * PRU1 uses system event 18 (To ARM) and 19 (From ARM)
       * Be sure to change the values in resource_table_0.h too.
        */
-#define TO_ARM_HOST            18    
+#define TO_ARM_HOST            18
 #define FROM_ARM_HOST        19
 
 // To blink the LED 
