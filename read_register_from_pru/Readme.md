@@ -11,7 +11,7 @@ The default GPIO use for this example is GPIO5, so based on the [TRM](https://ww
 
 
 ## Contents:
-.
+```
 ├── Readme.md
 ├── pru_codes
 │   ├── Makefile
@@ -21,6 +21,7 @@ The default GPIO use for this example is GPIO5, so based on the [TRM](https://ww
     ├── Makefile
     └── simple_ping_pong_rpmsg_user_space.c
 
+```
 ## How to use the example:
 ### First the PRU
 

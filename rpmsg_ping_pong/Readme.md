@@ -4,6 +4,7 @@ This example present the use of rpmsg between PRU1_1 and the ARM Cortex. The ARM
 
 
 ## Contents:
+```
 ├── pru_codes: 
 │   ├── Makefile: compiles the PRU codes 
 │   ├── run.sh: uses the Makefile to compile the codes, place the firmware and restart the PRU
@@ -12,6 +13,7 @@ This example present the use of rpmsg between PRU1_1 and the ARM Cortex. The ARM
     ├── Makefile: compile the ARM code 
     └── simple_ping_pong_rpmsg_user_space.c: 
 
+```
 ## How to use the example:
 ### First the PRU
 
