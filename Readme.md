@@ -3,10 +3,13 @@
 ## Contents
 
 Each folder contains an example: 
-- hello_world_pru: Once started the PRU1_1 will blink the user LED marked D3 on the Beaglebone AI
-- rpmsg_ping_pong: The ARM (user space) will send a message to the PRU core via rpmsg, when the pru core receives the message it will answer via the same channel
-- read_register_from_pru: The ARM sends a register adress to the PRU via rpmsg, when the pru receives the adress it will answer to ARM by sending the value of the regaister.
 
+```
+├── hello_world_pru: Once started the PRU1_1 will blink the user LED marked D3 on the Beaglebone AI
+├── include: contains the resource table for PRU1
+├── read_register_from_pru: The ARM (user space) will send a message to the PRU core via rpmsg, when the pru core receives the message it will answer via the same channel
+└── rpmsg_ping_pong: The ARM sends a register adress to the PRU via rpmsg, when the pru receives the adress it will answer to ARM by sending the value of the regaister
+```
 
 ## Usage:
 
