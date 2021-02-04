@@ -29,7 +29,7 @@ To start the PRU code, go into the pru folder and run `run.sh`
 cd pru_codes
 sh run.sh
 ```
-Once done, the pru is running the program and waiting for the ARM to send a message, on reception it will read the DATAOUT register  .k
+Once done, the pru is running the program and waiting for the ARM to send a message, on reception it will read the DATAOUT register.
 ### Then the ARM
 
 Then go to the ARM  folder compile and run the codes
@@ -40,5 +40,5 @@ make clean
 make 
 ./simple_ping_pong_user_space.pru1_1
 ```
-
+You should see the result printed out in the console.
 

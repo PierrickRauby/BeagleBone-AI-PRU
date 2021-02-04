@@ -31,7 +31,6 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
  * To compile use: make 
- * To deploy use: sh ./run.sh
 */
 
 
